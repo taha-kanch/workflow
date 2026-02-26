@@ -9,6 +9,15 @@
   top: 1rem;
   left: 1rem;
   z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hint {
+  font-size: 0.75rem;
+  color: #6b7280;
 }
 
 .reactFlow {

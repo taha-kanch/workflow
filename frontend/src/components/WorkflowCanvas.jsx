@@ -128,6 +128,7 @@ export default function WorkflowCanvas({ workflow, onWorkflowChange }) {
     <div className={styles.canvas}>
       <div className={styles.toolbarContainer}>
         <NodeToolbar onAddNode={handleAddNode} />
+        <span className={styles.hint}>Click × on a node to delete it, or select and press Delete</span>
       </div>
       <ReactFlow
         nodes={nodes}
